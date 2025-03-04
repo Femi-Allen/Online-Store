@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Store</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#products" class="hover:underline">Products</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Product Section -->
+    <section id="products" class="container mx-auto my-8 p-4">
+        <h2 class="text-3xl font-semibold text-center mb-6">Our Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Product Card -->
+            <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="headset.png" alt="Wireless Headphones" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Wireless Headphones</h3>
+                <p class="text-gray-600">High-quality sound with noise cancellation.</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Shop Now</button>
+            </div>
+            
+            <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="smartwatch.png" alt="Smart Watch" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Smart Watch</h3>
+                <p class="text-gray-600">Track your fitness and stay connected on the go.</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Shop Now</button>
+            </div>
+            
+            <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="keyboard.png" alt="Gaming Keyboard" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Gaming Keyboard</h3>
+                <p class="text-gray-600">Mechanical keys for fast and accurate typing.</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Shop Now</button>
+            </div>
+            
+            <div class="bg-white p-4 shadow-md rounded-lg">
+                <img src="speaker.png" alt="Portable Speaker" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Portable Speaker</h3>
+                <p class="text-gray-600">Wireless and waterproof with powerful bass.</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 My Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
